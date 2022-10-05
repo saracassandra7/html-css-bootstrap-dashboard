@@ -14,7 +14,53 @@
 </head>
 <body>
   <header>
-    
+    <div class="my-nav">
+      <div class="container-fluid">
+        <div class="row">
+          <!-- logo -->
+          <div class="col col-md-4 col-lg-2 d-none d-md-flex">
+            <img src="img/logo.svg" class="img-fluid" alt="logo" id="logo">
+          </div>
+
+          <!-- logo mobile -->
+          <div class="col col-md-4 col-lg-2 d-md-none">
+            <img src="img/mobile-logo.png" class="img-fluid" alt="mobile-logo" id="logo-mobile">
+          </div>
+
+          <!-- barra di ricerca -->
+          <div class="col col-8 col-md-7 col-lg-8 mt-3">
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="basic-addon1"><i class="bi bi-search"></i></span>
+              <input type="text" class="form-control" placeholder="Prova a cercare 'Quanti ragazzi di Classe#75 mangiano la pizza?'" aria-label="Username" aria-describedby="basic-addon1">
+            </div>
+          </div>
+
+          <!-- icone che spariscono nel mobile -->
+          <div class="col d-none d-lg-block col-lg-1 mt-1">
+            <nav class="navbar navbar-expand">
+              <div class="container-fluid">
+                <div class="navbar-nav">
+                  <a class="nav-link pe-3" href="#"><i class="bi bi-list-ul"></i></a>
+                  <a class="nav-link pe-3" href="#"><i class="bi bi-question-circle-fill"></i></a>
+                  <a class="nav-link pe-3" href="#"><i class="bi bi-three-dots-vertical"></i></a>
+                </div>
+              </div>
+            </nav>
+          </div>
+
+          <!-- icona che rimane nel mobile -->
+          <div class="col col-md-1 d-block col-lg-1 mt-1">
+            <nav class="navbar navbar-expand">
+              <div class="container-fluid">
+                <div class="navbar-nav">
+                  <a class="nav-link" href="#"><i class="bi bi-bell-fill" id="bell"></i></a>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
 
   </header>
 
