@@ -1,3 +1,4 @@
+/*header*/
 header{
   height: 70px;
   background-color: #dadfe5;
@@ -23,24 +24,25 @@ header #bell{
   color: rgb(255, 179, 37);
 }
 
+/*main*/
 main{
   overflow-x: hidden;
   height: calc(100vh - 70px);
 }
 
+/*menu laterale*/
 main .lateral-menu{
   background-color: #051e34;
   color: white;
   height: 100%;
- 
-
 }
 
-main #blu{
-  height: 100px; /*da togliere*/
-  width: 100%;
-  
+/*fascia azzurra*/
+main #fascia span{
+  background-color: #155cba;
+  padding-top: 2px;
 }
+
 
 
 .class-avatar{
