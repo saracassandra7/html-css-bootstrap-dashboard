@@ -28,22 +28,23 @@ header #bell{
 main{
   overflow-x: hidden;
   height: calc(100vh - 70px);
+  font-family: 'Roboto', sans-serif;
 }
 
 /*menu laterale*/
 main .lateral-menu{
   background-color: #051e34;
+  background-image: url(../img/sidebar-bg.png);
   color: white;
   height: 100%;
+  font-family: 'Poppins', sans-serif;
 }
+
 
 /*fascia azzurra*/
 main #fascia span{
   background-color: #155cba;
-  padding-top: 2px;
 }
-
-
 
 .class-avatar{
   width: 25px;
